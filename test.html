@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="title">Стресс</h1>
+  <div class="menu">
+    <div class="menu__item">
+      <a class="menu__title" href="index.html">Главная</a>
+      <a class="menu__title menu__title--active" href="#">Тест</a>
+      <a class="menu__title" href="Causes of stress.html">Причины стресса</a>
+      <a class="menu__title" href="Ways to deal with stress.html">Борьба со стрессом</a>
+    </div>
+  </div>
+  <div class="wrapper">
+    <input type="checkbox" id="check-menu">
+    <label class="menu" for="check-menu"><b>Меню</b></label>
+    <nav class="main-menu">
+      <a href="index.html" class="burger-link">➢Главная</a>
+      <a href="#" class="burger-link burger-link--active">➢Пройти тест</a>
+      <a href="Causes of stress.html" class="burger-link"> ➢Причины появления стресса</a>
+      <a href="Ways to deal with stress.html" class="burger-link"> ➢Способы борьбы со стрессом</a>
+    </nav>
+  </div>
+   <div class="flex-wrapper_1">
+      <div class="quiz" id="quiz">
+         <div class="quiz__questions" id="questions"></div>
+         <div class="quiz__indicator" id="indicator"></div>
+         <div class="quiz__results" id="results">
+            
+         </div>
+         <div class="quiz__controls">
+            <button type="button" id="btn-next" class="btn__next button" disabled>Далее</button>
+            <button type="button" id="btn-restart" class="btn__restart button">С начала</button>
+         </div>
+      </div>
+     </div>
+     <div class="contact">
+       <div class="contact__item">
+           <div class="contact__icon"><img class="img__contact" src="img/icons8-почта-50.png" alt=""></div>
+           <div class="contact__text">proekt.29@mail.ru<br></div>
+       </div>
+       <div class="contact__item">
+         <div class="contact__icon"><img class="img__contact" src="img/icons8-бродкаст-50(3).png" alt=""></div>
+         <div class="contact__text">МАОУДО "Северный Кванториум"</div>
+       </div>
+       <div class="contact__item">
+         <div class="contact__icon"><img class="img__contact" src="img/icons8-шестерни-50.png" alt=""></div>
+         <div class="contact__text">Клепиковский Денис Дмитриевич</div>
+       </div>
+       <div class="contact__item">
+         <div class="contact__icon"><img class="img__contact" src="img/icons8-бизнес-сеть-48.png" alt=""></div>
+         <div class="contact__text">Прилучная Ольга Николаевна</div>
+       </div>
+       <div class="contact__item">
+         <div class="contact__icon"><img class="img__contact" src="img/icons8-бизнес-сеть-80.png" alt=""></div>
+         <div class="contact__text">Погорелова Елена Александровна</div>
+       </div>                          
+     </div>
+   </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
