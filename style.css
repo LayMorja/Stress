@@ -33,6 +33,7 @@ html {
    height: calc(100vh - 227px);
    display: flex;
    flex-direction: column;
+   gap: 80px;
 }
 
 * {
@@ -437,6 +438,7 @@ label.menu {
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   overflow-y: auto;
 }
 .quiz__questions,
 .quiz__results {
