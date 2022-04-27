@@ -208,12 +208,15 @@ html {
    margin-left: auto;
    margin-right: auto;
    background-color: rgba(255, 255, 255, 0.8);
-   margin-bottom: 185px;
    color: black;
    margin-top: 30px;
    padding: 20px;
    border-radius: 7px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.causes__text:last-child {
+   margin-bottom: 185px;
 }
 
 .test__text__2 {
@@ -283,9 +286,13 @@ p {
    max-width: 1200px;
    margin-inline: auto;
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+   padding-inline: 15px;
 }
-
+@media (min-width: 768px) {
+   .causes__container {
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+   }
+}
 .img__konflikt {
    width: 100%;
    margin: 0 auto;
